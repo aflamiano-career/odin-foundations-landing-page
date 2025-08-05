@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1420px;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header,
+footer {
+  background-color: #1f2937;
+  color: #f9faf8;
+  display: flex;
+  padding: 12px 180px;
+}
+
+header {
+  justify-content: space-between;
+}
+
+#logo {
+  font-size: 24px;
+  font-weight: 900;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  gap: 16px;
+}
+
+#hero {
+  background-color: #1f2937;
+  color: #f9faf8;
+  padding: 72px 180px;
+  display: flex;
+  gap: 32px;
+}
+
+.hero-description {
+  flex: 1;
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.hero-description h1 {
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 120%;
+  color: #f9faf8;
+}
+
+.hero-description p {
+  margin: 12px 0;
+}
+
+.hero-description button {
+  background-color: #3882f6;
+  color: #f9faf8;
+  border: 0;
+  border-radius: 8px;
+  padding: 4px 24px;
+}
+
+.hero-img {
+  flex: 1;
+  width: 100%;
+  height: 240px;
+  background-color: #6d747d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  flex: 1;
+}
+
+#information {
+  padding: 48px 180px 72px;
+  text-align: center;
+}
+
+#information h2 {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 900;
+  margin-bottom: 32px;
+}
+
+.cards-container {
+  display: flex;
+  justify-content: center;
+  gap: 64px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-img {
+  width: 100%;
+  height: 150px;
+  border: 4px solid #3882f6;
+  border-radius: 16px;
+}
+
+#quote {
+  background-color: #e5e7eb;
+  padding: 96px 320px;
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 300;
+}
+
+#quote strong {
+  display: block;
+  width: 100%;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 900;
+  text-align: right;
+}
+
+#call-to-action {
+  padding: 72px 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cta-wrapper {
+  background-color: #3882f6;
+  color: #f9faf8;
+  width: 100%;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 48px 180px;
+}
+
+.cta-description h3 {
+  font-size: 24px;
+}
+
+.cta-wrapper button {
+  background-color: #3882f6;
+  color: #f9faf8;
+  padding: 4px 24px;
+  border: 2px solid #fff;
+  border-radius: 8px;
+}
+
+footer {
+  padding: 32px 0;
+  justify-content: center;
+}
